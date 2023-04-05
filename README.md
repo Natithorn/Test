@@ -11,6 +11,5 @@ classDiagram
         -int sizeInFeet
         -canEat()
     }
-    Resource : DataGrids()
-    Resource : +Add()    
+    
 ```
