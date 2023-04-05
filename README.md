@@ -17,6 +17,8 @@ classDiagram
         -DateTime()
     }
     class ClassStudent {
+        -string subject
+        -string NO
         -getSubject()
         -getNo()
     }
