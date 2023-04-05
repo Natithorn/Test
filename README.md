@@ -3,7 +3,7 @@
 title: Animal example
 ---
 classDiagram
-    note "From Duck till Zebra"
+    note "เปียโนรักอาจารย์โค้ดมากค่ะ"
     Animal <|-- Duck
     note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
     Animal <|-- Fish
