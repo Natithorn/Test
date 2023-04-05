@@ -1,6 +1,6 @@
 ```mermaid
 ---
-title: Animal example
+title: ProJect
 ---
 classDiagram
     note "เปียโนรักอาจารย์โค้ดมากค่ะ"
