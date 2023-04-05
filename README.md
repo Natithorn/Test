@@ -4,15 +4,14 @@ title: ProJect
 ---
 classDiagram
     note "เปียโนรักอาจารย์โค้ดมากค่ะ"
-    Animal <|-- Duck
-    note for Duck "can fly\ncan swim\ncan dive\ncan help in debugging"
+    Animal <|-- Form1
     Animal <|-- Fish
     Animal <|-- Zebra
     Animal : +int age
     Animal : +String gender
     Animal: +isMammal()
     Animal: +mate()
-    class Duck{
+    class Form1{
         +String beakColor
         +swim()
         +quack()
