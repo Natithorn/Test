@@ -4,9 +4,10 @@ title: ProJect
 ---
 classDiagram
     note "เปียโนรักอาจารย์โค้ดมากค่ะ"
-    Student --|> Form1
+    ClassStudent --|> Form1
     Classinformation --|> Form1
     CheckNameStudent <|-- Classinformation
+    CheckNameStudent --|> Form1
     class Classinformation{
         -string No
         -string NameClass
@@ -14,7 +15,10 @@ classDiagram
         -int kad
         -int leave
         -DateTime()
-        
+    }
+    class ClassStudent {
+        -getSubject()
+        -getNo()
     }
     
 ```
