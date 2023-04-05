@@ -7,6 +7,7 @@ classDiagram
     Information <|-- Form1
     Information --|> Form1
     Student --|> Form1
+    Classinformation --|> Form1
     Information <|-- Classinformation
     class Classinformation{
         -string No
@@ -15,7 +16,7 @@ classDiagram
         -int kad
         -int leave
         -DateTime()
-        -canEat()
+        
     }
     
 ```
