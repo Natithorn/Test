@@ -11,11 +11,6 @@ classDiagram
     Animal : +String gender
     Animal: +isMammal()
     Animal: +mate()
-    class Form1{
-        +String beakColor
-        +swim()
-        +quack()
-    }
     class Fish{
         -int sizeInFeet
         -canEat()
