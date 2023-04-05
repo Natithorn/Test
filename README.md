@@ -6,9 +6,15 @@ classDiagram
     note "เปียโนรักอาจารย์โค้ดมากค่ะ"
     Information <|-- Form1
     Information --|> Form1
+    Student --|> Form1
     Information <|-- Classinformation
     class Classinformation{
-        -int sizeInFeet
+        -string No
+        -string NameClass
+        -int marean
+        -int kad
+        -int leave
+        -DateTime()
         -canEat()
     }
     
