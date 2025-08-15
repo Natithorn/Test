@@ -3,7 +3,7 @@
 title: ProJect
 ---
 classDiagram
-    note "เปียโนรักอาจารย์โค้ดมากค่ะ"
+    
     ClassStudent --|> Form1
     Classinformation --|> Form1
     CheckNameStudent <|-- Classinformation
